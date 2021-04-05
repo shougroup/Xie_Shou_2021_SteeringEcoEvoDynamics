@@ -1,7 +1,7 @@
 clear
 % Percentage of Newborn biomass replaced with H biomass. For the orange attractor, spike_frac = 0.
 % For the teal attractor corresponding to the 30%-H spiking strategy, spike_frac = 0.3.
-spike_frac = 0.5;
+spike_frac = 0;
 % Parameters shown in Table 1
 gMmax = 0.7;
 gHmax = 0.3;
@@ -79,8 +79,8 @@ ylabel('phi_M(0)')
 zlabel('P(T)')
 %%
 % plot 2D community function landscape with attractors
-MfracT = MfracDiff + ones(ysize, 1) * (y0 : dy : yt);
-MfracDiff_adjusted = MfracT * (1-spike_frac) - ones(ysize, 1) * (y0 : dy : yt);
+MfracT = MfracDiff + ones(xsize, 1) * (y0 : dy : yt);
+MfracDiff_adjusted = MfracT * (1-spike_frac) - ones(xsize, 1) * (y0 : dy : yt);
 figure(2)
 contour((x0:dx:xt), (y0:dy:yt), P', (min(P(:)) : 240 : max(P(:))), 'linewidth', 3);
 set(gca,'LineWidth',2,'FontSize',16,'FontName','Arial','fontweight','bold','units','inches','position',[1 1 3 3],'ticklength',[0.04,0.04])%,'yticklabel',[])
@@ -92,4 +92,3 @@ contour((x0:dx:xt),(y0:dy:yt), MfracDiff_adjusted', [0 0], 'color',[1 0.2 0], 'l
 hold off
 ylabel('phi_M(0)')
 xlabel('f_P')
-
