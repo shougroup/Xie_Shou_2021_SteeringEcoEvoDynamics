@@ -1,5 +1,5 @@
 % Simulating community selection of H-M community in the simple scenario
-% where only fp mutates. Dynamicsare plotted in Figure 6 and Figure 3A.
+% where only fp mutates. Dynamics are plotted in Figure 6.
 clear
 C = 3; % total number of cycles
 % comm_type_num = n for the top n% strategy.
