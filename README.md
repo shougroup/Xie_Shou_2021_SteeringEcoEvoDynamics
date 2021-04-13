@@ -3,14 +3,14 @@ Source codes for "Steering ecological-evolutionary dynamics to improve  artifici
 Directories in Codes are ordered according to figures.
 
 ## Figure 2:
-* B: /Figure2BC/main_Figure2B_QuiverAttractor.m
-* C: /Figure2BC/main_Figure2C_LandscapePlot.m
+* B: /Figure2/main_Figure2B_QuiverAttractor.m
+* C: /Figure2/main_Figure2C_LandscapePlot.m
 * D: See instructions for Figure 5C(ii) below
 
 
 ## Figure 3:
-* A: Follow /Examples/Example1 to run the simulation codes in /Figure3_simu and generate the figure.
-* B: The landscape and attractor are the same as Figure 2(B,C).
+* A: Follow /Examples/Example1 to run the simulation codes in /Figure3 and generate the figure.
+* B: The landscape and attractor are the same as in Figure 2(B, C).
 
 ## Figure 5:
 * A(ii): /Figure2BC/main_Figure5Aii_Landscape2D.m
