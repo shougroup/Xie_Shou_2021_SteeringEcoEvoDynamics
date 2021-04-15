@@ -8,7 +8,7 @@ cl = {'k','c',[0.8 0.8 0.8]}; % color of the line
 if ~exist('PlotData','dir')
     mkdir('PlotData')
 end
-for i = 1:3
+for i = 1:length(Fnum)
     filename=['PlotData/Data' num2str(Fnum(i)) '.mat'];
     if ~exist(filename, 'file')
         DataCollect(i, C);
