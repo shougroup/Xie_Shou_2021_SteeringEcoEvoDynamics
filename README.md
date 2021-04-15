@@ -32,7 +32,7 @@ Directories in Codes are ordered according to figures.
  * To plot C(iii), run main_Figure5C.m.
 
 ## Figure 6:
-To generate the figures, follow /Examples/Example1 to run the simulation codes in /Figure6_simu with the following parameters:
+To generate the figures, follow /Examples/Example1 to run the simulation codes in /Figure6/simu with the following parameters:
   * A: C = 1000, comm_type = 2, Pn_sig = 0, spike_frac = 0;
   * B: C = 1000, comm_type = 2, Pn_sig = 0, spike_frac = 0.3;
   * C: C = 2000, comm_type = 10, Pn_sig = 0, spike_frac = 0;
@@ -43,6 +43,21 @@ To generate the figures, follow /Examples/Example1 to run the simulation codes i
   * H: C = 2000, comm_type = 10, Pn_sig = 100, spike_frac = 0.3;
 
 ## Figure 7:
-To generate the figures, follow /Examples/Example2 to run the simulation codes in /Figure6_simu with the following parameters:
-A-B: check_period = C*10
-C-E: check_period = 100.
+To generate the figures, follow /Examples/Example2 to run the simulation codes in /Figure7/simu with the following parameters:
+* A-B: check_period = C*10
+* C-E: check_period = 100.
+
+## Figure S2:
+To generate the figures, follow /Examples/Example3 to run the simulation codes in /FigureS2_simu with the following parameters:
+* top panel: C = 100, multiplier = 10;
+* bottom panel: C = 100, multiplier = 100;
+
+## Figure S3:
+* A: /FigureS3/A/main_PCompare.m
+* B: /FigureS3/B/main_PCompare.m
+
+## Figure S4:
+Run /Figure5/C/ii/main_FigureS4.m after /Figure5/C/ii/main_heritability_simu.m has been run.
+
+## Figure S5:
+Bottom panel: Follow /Examples/Example1 to run the simulation codes in /FigureS5/simu and generate the figure.
