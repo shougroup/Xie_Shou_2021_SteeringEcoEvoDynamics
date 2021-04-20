@@ -107,7 +107,7 @@ for j = 1:100
     adults_off = comm_all;
     save(['HeriData/adults' num2str(j)],'adults_off');
 end
-%%
+
 foldername = ['C' num2str(n) '/comm_all'];
 load([foldername '/adults'])
 [~, I] = sort([adults.P], 'descend');
