@@ -5,7 +5,7 @@ Directories in Codes are ordered according to figures.
 ## Figure 2:
 * B: /Codes/Figure2/main_Figure2B_QuiverAttractor.m
 * C: /Codes/Figure2/main_Figure2C_LandscapePlot.m
-* D: See instructions for Figure 5C(ii) below
+* E: See instructions for Figure 5C(ii) below
 
 
 ## Figure 3:
@@ -25,14 +25,14 @@ Directories in Codes are ordered according to figures.
 * C(ii): /Figure5/C/ii
  * Run main_heritability_simu_2cycle.m to simulate community functions of parents and offspring communities.
  * To plot C(ii), run main_Figure5C.m.
- * To plot Figure 2D, run main_Figure2D.m.
+ * To plot Figure 2E, run main_Figure2E.m.
  * To plot Figure S4, run main_FigureS4.m.
 * C(iii): /Figure5/C/iii
  * Run main_heritability_simu_2cycle_spike.m to simulate community functions of parents and offspring communities.
  * To plot C(iii), run main_Figure5C.m.
 
 ## Figure 6:
-To generate the figures, follow /Examples/Example1 to run the simulation codes in /Figure6/simu with the following parameters:
+To generate the figures, follow /Examples/Example1 to run the simulation codes in /Codes/Figure6/simu with the following parameters:
   * A: C = 1000, comm_type_num = 2, Pn_sig = 0, spike_frac = 0;
   * B: C = 1000, comm_type_num = 2, Pn_sig = 0, spike_frac = 0.3;
   * C: C = 2000, comm_type_num = 10, Pn_sig = 0, spike_frac = 0;
@@ -43,44 +43,46 @@ To generate the figures, follow /Examples/Example1 to run the simulation codes i
   * H: C = 2000, comm_type_num = 10, Pn_sig = 100, spike_frac = 0.3;
 
 ## Figure 7:
-To generate the figures, follow /Examples/Example2 to run the simulation codes in /Figure7/simu with the following parameters:
+To generate the figures, follow /Examples/Example2 to run the simulation codes in /Codes/Figure7/simu with the following parameters:
 * A-B: check_period = C*10
 * C-E: check_period = 100.
 
 ## Figure S2:
-To generate the figures, follow /Examples/Example3 to run the simulation codes in /FigureS2_simu with the following parameters:
+To generate the figures, follow /Examples/Example3 to run the simulation codes in /Codes/FigureS2_simu with the following parameters:
 * top panel: end_cycle = 100, multiplier = 10;
 * bottom panel: end_cycle = 100, multiplier = 100;
 
 ## Figure S3:
-* A: /FigureS3/A/main_PCompare.m
-* B: /FigureS3/B/main_PCompare.m
+* A: /Codes/FigureS3/A/main_PCompare.m
+* B: /Codes/FigureS3/B/main_PCompare.m
 
 ## Figure S4:
-Run /Figure5/C/ii/main_FigureS4.m after /Figure5/C/ii/main_heritability_simu.m has been run.
+/Codes/Figure5/C/ii/
+Run main_FigureS4.m after running main_heritability_simu_2cycle.m.
 
 ## Figure S5:
-Bottom panel: Follow /Examples/Example1 to run the simulation codes in /FigureS5/simu and generate the figure.
+Bottom panel: Follow /Examples/Example1 to run the simulation codes in Codes/FigureS5/simu and generate the figure.
 
 ## Figure S6:
-Follow instructions at the beginning of FigureS6/main_FigureS6.m to generate the figures.
+Follow instructions at the beginning of Codes/FigureS6/main_FigureS6.m to generate the figures.
 
 ## Figure S7:
-Column 1 and 2: follow instructions at the beginning of FigureS7/main_Columns1and2.m to generate the figures.
-Column 3: follow instructions at the beginning of FigureS7/main_Columns3.m to generate the figures.
-Column 4: follow instructions at the beginning of FigureS7/main_Columns4.m to generate the figures.
+Column 1 and 2: follow instructions at the beginning of Codes/FigureS7/main_Columns1and2.m to generate the figures.
+Column 3: follow instructions at the beginning of Codes/FigureS7/main_Columns3.m to generate the figures.
+Column 4: follow instructions at the beginning of Codes/FigureS7/main_Columns4.m to generate the figures.
 
 ## Figure S8: FigureS8/main_FigureS8.m
 
 ## Figure S9:
-A: Follow /Examples/Example1 to run the simulation codes in /FigureS9/simu and generate the figure.
-B: /Figure2/main_FigureS9B_Landscape2D.m
+A: Follow /Examples/Example1 to run the simulation codes in Codes/FigureS9/simu and generate the figure.
+B: Codes/Figure2/main_FigureS9B_Landscape2D.m
 
 ## Figure S10:
-* A: To generate the figures, follow /Examples/Example1 to run the simulation codes in /Figure6/simu with the following parameters:
+* A: To generate the figures, follow /Examples/Example1 to run the simulation codes in Codes/Figure6/simu with the following parameters:
   * T0 = 20, C = 1000, comm_type_num = 2, Pn_sig = 0, spike_frac = 0;
-* B: /FigureS10/BC/main_FigureS10B_landscape.m
-* C: Run /FigureS10/BC/main_heritability_simu.m to simulate community functions of parents and offspring communities. Then plot C by running main_FigureS10C_heritbility.m.
+* B: Codes/FigureS10/BC/main_FigureS10B_landscape.m
+* C: Codes/FigureS10/BC/
+ Run main_heritability_simu_2cycle.m to simulate community functions of parents and offspring communities. Then plot C by running main_FigureS10C_heritbility.m.
 
 ## Figure S11:
 Follow /Examples/Example1 to run the simulation codes in /FigureS11/simu and generate the figure. Before running main*.m, modify `spike_frac` accordingly. For example, to generate the figures of the second column, set spike_frac = 0.1. To reproduce the same dynamics, use the directory /10percentH.
