@@ -13,13 +13,13 @@ xt = 0.16;
 y0 = 0.5;
 dy = 0.005;
 yt = 0.9;
+xsize = round((xt-x0)/dx+1);
+ysize = round((yt-y0)/dy+1);
 
 filename = 'LocalMap.mat';
 if exist(filename, 'file')
     load(filename)
 else
-    xsize = round((xt-x0)/dx+1);
-    ysize = round((yt-y0)/dy+1);
     gMmax = 0.7;
     gHmax = 0.3;
     c_BM = 1/3;
