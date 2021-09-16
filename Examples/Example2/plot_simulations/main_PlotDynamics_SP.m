@@ -1,12 +1,12 @@
 clear
 close all
 
-spike_num = 5;
+spike_num = 5; % number of candidate spiking strategies
 C = 2000; % number of cycles
 print_flag = false; % whether or not print the figures.
 rc = true; % whether or not heritability check was performed.
 tile_flag = false; % tile_flag = true, figures are presented in tiles; otherwise, in individual figures
-f_num = [11 18 19];%[1 2 3];
+f_num = [1 2 3];
 r_num = 3;
 cl = {'k', 'c', [0.8 0.8 0.8]};
 
@@ -175,7 +175,7 @@ if rc == true
         end
         load(filename)
         frac = zeros(C, 1);
-        check_cycle_m = [0; check_cycle_m];
+        check_cycle_m = [0; check_cycle_m(:)];
         for i = 1:length(check_cycle_m)-1
             frac(check_cycle_m(i)+1:check_cycle_m(i+1)) = spike_before_m(i, 1);
         end
