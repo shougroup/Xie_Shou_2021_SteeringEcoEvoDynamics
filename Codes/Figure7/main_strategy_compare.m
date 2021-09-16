@@ -1,7 +1,7 @@
 clear
 hold on
-fnames1 = {'B/1', 'B/2', 'B/3'}; % directory of simulations w/  spiking
-fnames2 = {'A/1', 'A/2', 'A/3'}; % directory of simulations w/o spiking
+fnames1 = {'c_e/1', 'c_e/2', 'c_e/3'}; % directory of simulations w/  spiking
+fnames2 = {'ab/1', 'ab/2', 'ab/3'}; % directory of simulations w/o spiking
 
 for Fnum = 1:3
     folder_name = fnames1{Fnum};
